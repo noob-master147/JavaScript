@@ -47,37 +47,41 @@
 // create a todo with 6 items 
 // print the titles of the todos which are not done
 
-const task =[
-    {
-        title: 'one', 
-        status: false,
-    },
-    {
-        title: 'two',
-        status: true,
-    },
-    {
-        title: 'three',
-        status: true,
-    },
-    {
-        title: 'four',
-        status: false,
-    },
-    {
-        title: 'five',
-        status: false,
-    },
-    {
-        title: 'six',
-        status: false,
-    }
-]
+// const task =[
+//     {
+//         title: 'one', 
+//         status: false,
+//     },
+//     {
+//         title: 'two',
+//         status: true,
+//     },
+//     {
+//         title: 'three',
+//         status: true,
+//     },
+//     {
+//         title: 'four',
+//         status: false,
+//     },
+//     {
+//         title: 'five',
+//         status: false,
+//     },
+//     {
+//         title: 'six',
+//         status: false,
+//     }
+// ]
 
-let notDone = (task.filter((todo) => !todo.status))
-notDone.forEach((task) => console.log(task.title))
+// let notDone = (task.filter((todo) => !todo.status))
+// notDone.forEach((task) => console.log(task.title))
 
 
-// Alternative
-// const thingsDone = task.filter((todo) => todo.status === false)
-// thingsDone.forEach((task) => console.log(task.title))
+// // Alternative
+// // const thingsDone = task.filter((todo) => todo.status === false)
+// // thingsDone.forEach((task) => console.log(task.title))
+
+
+//Arrow V.2
+
