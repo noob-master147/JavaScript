@@ -24,9 +24,6 @@ removeAllButton.addEventListener('click', removeAll);
 
 
 
-
-
-
 function addItem(){
     var input = document.getElementById('input');
     var item = input.value
@@ -34,12 +31,12 @@ function addItem(){
     var textnote = document.createTextNode(item)
 
     if(item === ''){
-        // return false;
+        return false;
         //add a p tag saying enter a todo
-        var p = document.createElement('p')
-        var note = doc.createTextNode("Enter Your Todo")
-        p.appendChild(note)
-        document.querySelector('p').appendChild(p)
+        // var h = document.createElement('h1')
+        // var myValue = document.createTextNode('Enter a ToDo!')
+        // h.appendChild(myValue)
+        // document.querySelector('h1').appendChild(h)
     } else {
         //creating li
         li = document.createElement('li')
@@ -64,10 +61,7 @@ function addItem(){
         }, 2);
 
         input.value = ''
-
-
     }
-
 }
 
 function removeItem(){
