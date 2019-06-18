@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.btn{
+    padding: 0.5rem 0.7rem;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    color: #000000;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+    animation-delay: 200ms; 
+}
