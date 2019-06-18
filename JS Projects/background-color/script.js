@@ -2,13 +2,6 @@ const button = document.querySelector('.btn')
 const clipboard = document.querySelector('.clipboard')
 const bodyBackground = document.querySelector('body')
 
-const colors = [
-    'yellow',
-    'red',
-    'green',
-    '#123321'
-]
-
 let red = 00
 let green = 00
 let blue = 00
